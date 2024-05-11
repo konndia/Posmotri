@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cinema Ticket Application</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="screen"><img src="images/movie-theater.jpg" height="100px" width="100%" alt="movie-theater"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+        </div>
+        <div class="row">
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <div class="movie-list">
+        <select name="" id="movie">
+            <option value="240">Груз 200</option>
+            <option value="250">Морфий</option>
+            <option value="240">Про уродов и людей</option>
+            <option value="250">Брат-2</option>
+        </select>
+    </div>
+
+    <ul class="info">
+        <li>
+            <div class="seat selected"></div>
+            <small>Ваше место</small>
+        </li>
+        <li>
+            <div class="seat"></div>
+            <small>Свободно</small>
+        </li>
+        <li>
+            <div class="seat reserved"></div>
+            <small>Занято</small>
+        </li>
+    </ul>
+
+    <p class="text">
+         Вы заплатите за <span id="count"> </span> билет/а <span id="amount"> </span> рублей
+    </p>
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
