@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def main(request):
-    return render(request, 'main/main.html')
+    return render(request, 'main/booking.html')
 
 def poster(request):
     return render(request, "main/poster.html")
