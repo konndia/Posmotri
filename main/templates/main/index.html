@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel='stylesheet' href='./src/style/style.css'>
+    {%load static%}
+    <link rel='stylesheet' type='text/css' href="{% static 'main/css/style_back.css' %}">
     <title>ПОСМОТРИ</title>
 </head>
 <body>
@@ -10,12 +11,12 @@
         <div class="container">
             <div class="header-line">
                 <div class="header-logo">
-                    <img src="./src/img/logo.png" alt="">
+                    <a class="nav-item" href="{% url 'home' %}"><img src="../../static/main/img/logo_posmotri.png" alt="Лого Посмотри" class="header-logo-img"></a>
                 </div>
                 <div class='nav'>
-                    <a style="color: yellow"class="nav-item" href="#">ДОМОЙ</a>
-                    <a class="nav-item" href="index2.html">СЕЙЧАС В КИНО!</a>                    
-                    <a class="nav-item" href="sign.html">АВТОРИЗАЦИЯ</a>
+                    <a style="color: yellow" class="nav-item" href="{% url 'home' %}">ДОМОЙ</a>
+                    <a class="nav-item" href="{% url 'afisha' %}">СЕЙЧАС В КИНО!</a>
+                    <a class="nav-item" href="../../../Посмотри/sign.html">АВТОРИЗАЦИЯ</a>
                 </div>
                 <div class="links">
                     <a class="cart icon-header icon-header--white" href="#">
@@ -36,7 +37,7 @@
                     </a>
                 </div>
                 <div class="bth">
-                    <a class="button" href='main.html'>ЗАБРОНИРОВАТЬ МЕСТО</a>
+                    <a class="button" href='../../../Посмотри/main.html'>ЗАБРОНИРОВАТЬ МЕСТО</a>
                 </div>
             </div>
         </div>
@@ -47,10 +48,10 @@
             <div class="header-down__aside">
                 <div class="header-title">Категорически приветсвуем в</div>
                 <div class="header-subtitle">ПОСМОТРИ</div>
-                <a href="index2.html" class="header-button">ЧТО НОВЕНЬКОГО</a>
+                <a href="afisha.html" class="header-button">ЧТО НОВЕНЬКОГО</a>
             </div>
             <div class="header-down__bside">
-                <img src="src/img/tail-min.jfif">
+                <img src="../../static/main/img/tail-min.jfif">
             </div>
         </div>
     </div>

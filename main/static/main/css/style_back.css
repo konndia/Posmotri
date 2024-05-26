@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(../img/bg.jpg);
+    background-image: url(../../main/img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -49,6 +49,10 @@ body {
 
 .logo-img{
     color: #fff;
+}
+
+.header-logo-img {
+    width: 200px;
 }
 
 .button{

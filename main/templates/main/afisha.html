@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel='stylesheet' href='./src/style/style.css'>
+    {%load static%}
+    <link rel='stylesheet' href="{% static 'main/css/style_back.css' %}">
     <title>ПОСМОТРИ</title>
 </head>
 <body>
@@ -10,12 +11,12 @@
         <div class="container">
             <div class="header-line">
                 <div class="header-logo">
-                    <img src="./src/img/logo.png" alt="">
+                    <img src="../../static/main/img/logo_posmotri.png" alt="">
                 </div>
                 <div class='nav'>
-                    <a class="nav-item" href="index.html">ДОМОЙ</a>
-                    <a style="color: yellow" class="nav-item" href="#">СЕЙЧАС В КИНО!</a>
-                    <a class="nav-item" href="nava/index.html">ЛИЧНЫЙ КАБИНЕТ</a>
+                    <a class="nav-item" href="{% url 'home' %}">ДОМОЙ</a>
+                    <a style="color: yellow" class="nav-item" href="{% url 'afisha' %}">СЕЙЧАС В КИНО!</a>
+                    <a class="nav-item" href="../../../Посмотри/nava/index.html">ЛИЧНЫЙ КАБИНЕТ</a>
                 </div>
                 <div class="links">
                     <a class="cart icon-header icon-header--white" href="#">
@@ -36,7 +37,7 @@
                     </a>
                 </div>
                 <div class="bth">
-                    <a class="button" href='main.html'>ЗАБРОНИРОВАТЬ МЕСТО</a>
+                    <a class="button" href='../../../Посмотри/main.html'>ЗАБРОНИРОВАТЬ МЕСТО</a>
                 </div>
             </div>
         </div>
@@ -48,10 +49,10 @@
             <div class="header-down__aside">
                 <div class="header-title">Груз200</div>
                 <div style="font-size:20px" class="header-subtitle">СССР. Августа 1984 года. Финал советской эпохи. Провинция. После дискотеки пропадает дочь секретаря райкома партии. Свидетелей нет. Виновные не обнаружены. В этот же вечер в доме на окраине города происходит жестокое убийство. Виновный — хозяин дома. Оба расследования поручены капитану милиции Журову</div>
-                <a href="main.html" class="header-button">Купить БИЛЕТЫ</a>
+                <a href="../../../Посмотри/main.html" class="header-button">Купить БИЛЕТЫ</a>
             </div>
             <div class="header-down__bside" style="text-align:center">
-                <img style="width: 400px; height: 600px" src="images/200.jpg">
+                <img style="width: 400px; height: 600px" src="../../../Посмотри/images/200.jpg">
             </div>
         </div>
 
@@ -61,10 +62,10 @@
                 <div style="font-size:20px" class="header-subtitle">История молодого врача, который, оказавшись по распределению в советской глубинке, постепенно губит себя наркотиками;
                     Экранизация классики: современная интерпретация "Записок юного врача" и "Морфия" Булгакова;
                     Сценарий от звезды "Брата 2": сценарий написал Сергей Бодров-младший</div>
-                <a href="main.html" class="header-button">Купить БИЛЕТЫ</a>
+                <a href="../../../Посмотри/main.html" class="header-button">Купить БИЛЕТЫ</a>
             </div>
             <div class="header-down__bside" style="text-align:center">
-                <img style="width: 400px; height: 600px" src="images/mrf.jpg">
+                <img style="width: 400px; height: 600px" src="../../../Посмотри/images/mrf.jpg">
             </div>
         </div>
 
@@ -74,10 +75,10 @@
                 <div style="font-size:20px" class="header-subtitle">Данилу Багрова и его однополчан, служивших вместе в Чечне, приглашают принять участие в съемке телепередачи Ивана Демидова. Когда одного из друзей Багрова неожиданно убивают, он узнает, что у брата убитого, хоккеиста из Америки, большие проблемы. Чтобы разобраться в произошедшем, Данила отправляется в США, а за компанию берет с собой брата Виктора
 
                 </div>
-                <a href="main.html" class="header-button">Купить БИЛЕТЫ</a>
+                <a href="../../../Посмотри/main.html" class="header-button">Купить БИЛЕТЫ</a>
             </div>
             <div class="header-down__bside" style="text-align:center">
-                <img style="width: 400px; height: 600px" src="images/br2.jpg">
+                <img style="width: 400px; height: 600px" src="../../../Посмотри/images/br2.jpg">
             </div>
         </div>
 
@@ -87,10 +88,10 @@
                 <div style="font-size:20px" class="header-subtitle">События фильма разворачиваются в начале XX века. Загадочный Иоганн владеет фотостудией, расположенной в подвальном помещении. Там он снимает фотографические открытки с женщинами в весьма недвусмысленных и даже унизительных позах. Естественно, что об этом месте, о самом Иоганне и его семье слывет дурная молва. Вскоре его супруга, которая до этого момента терпела увлечение мужа, начинает сомневаться не только в его верности, но и в моральных принципах
 
                 </div>
-                <a href="main.html" class="header-button">Купить БИЛЕТЫ</a>
+                <a href="../../../Посмотри/main.html" class="header-button">Купить БИЛЕТЫ</a>
             </div>
             <div class="header-down__bside" style="text-align:center">
-                <img style="width: 400px; height: 600px" src="images/pp.jpg">
+                <img style="width: 400px; height: 600px" src="../../../Посмотри/images/pp.jpg">
             </div>
         </div>
 
