@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,14 +74,18 @@
         </div>
     </div>
 
+
     <div class="movie-list">
         <select name="" id="movie">
-            <option value="240">Груз 200</option>
+            {% for el in films %}
+            <option value="240">{{ el.title }}</option>
+            {% endfor %}
             <option value="250">Морфий</option>
             <option value="240">Про уродов и людей</option>
             <option value="250">Брат-2</option>
         </select>
     </div>
+
 
     <ul class="info">
         <li>
@@ -96,6 +101,8 @@
             <small>Занято</small>
         </li>
     </ul>
+
+    {{ films.title }}
 
     <p class="text">
          Вы заплатите за <span id="count"> </span> билет/а <span id="amount"> </span> рублей

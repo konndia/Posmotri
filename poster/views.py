@@ -6,4 +6,4 @@ def poster(request):
     return render(request, 'main/poster.html', {'films': films})
 
 def booking(request):
-    return render(request, "main/booking.html")
+    return render(request, 'main/booking.html', {'booking': booking})

@@ -9,7 +9,7 @@
             <div class="header-down__aside">
                 <div class="header-title">{{ el.title }}</div>
                 <div style="font-size:20px" class="header-subtitle">{{ el.description }}</div>
-                <a href="booking.html" class="header-button">Купить БИЛЕТЫ</a>
+                <a href="{% url 'booking' %}" class="header-button">Купить БИЛЕТЫ</a>
             </div>
             <div class="header-down__bside" style="text-align:center">
                 <img style="width: 400px; height: 600px" src='../../static/main/img/{{ el.image_url }}.jpg'>

@@ -10,5 +10,5 @@ def login(request):
 def about(request):
     return render(request, "main/about.html")
 
-def booking(request):
-    return render(request, "main/booking.html")
+# def booking(request):
+#     return render(request, "main/booking.html")
