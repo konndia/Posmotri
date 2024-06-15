@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    background-image: url(../../main/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0px 166px
+}
+
+.header {}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+    color: #f3fc0d;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cart{
+    border-right: 1px solid #ffffff;
+    padding-right: 10px;
+}
+
+.cart-img{
+}
+
+.logo-img{
+    color: #fff;
+}
+
+.header-logo-img {
+    width: 200px;
+}
+
+.button{
+    background-color: #FFF;
+    color: #000000;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+
+.button:hover{
+   background-color: #f58d00;
+}
+
+.icon-header {
+    height: 24px;
+    width: 24px;
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.icon-header--white {
+    color: #FFFFFF;
+}
+
+.phone-holder {
+    display: flex;
+    gap: 4px;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone-text{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.num{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-down {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    margin-top: 150px;
+}
+
+.header-title, .header-subtitle {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header-down__aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-down__bside {
+    img {
+        max-width: 100%;
+        max-height: 70vh;
+    }
+}
+
+.header-button{
+    background-color: #ff7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.3s linear
+}
+
+.header-button:hover{
+    background-color: #904506
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

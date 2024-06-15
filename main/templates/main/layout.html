@@ -13,10 +13,13 @@
 </head>
 <body>
     <header>
-        <span class="logo"><a class="nav-item" href="{% url 'home' %}"><img class="logo-img" src="{% static 'main/img/logo_posmotri.png' %}" alt="Лого Посмотри"></a></span>
+        <span class="logo"><a class="nav-item" href="{% url 'poster' %}"><img class="logo-img" src="{% static 'main/img/logo_posmotri.png' %}" alt="Лого Посмотри"></a></span>
         <a class="nav-item" href="{% url 'poster' %}"><i class="fa-solid fa-video"></i> Афиша</a>
         <a class="nav-item" href="{% url 'about' %}"><i class="fa-solid fa-circle-info"></i> О нас</a>
-        <a class="nav-item" href="{% url 'login' %}"><i class="fa-solid fa-user"></i> Личный кабинет</a>
+        <a class="item2" href="../poster/booking">Забронировать</a>
+        <a class="nav-item" href="../poster/subscribe">Подписаться</a>
+        <a class="nav-item" href="../poster/send_to_subscribers">Отправить сообщение всем подписчикам</a>
+        <a class="nav-item" href="/admin">Для администраторов</a>
         <a class="nav-item phone" href="tel:+79991112233"><i class="fa-solid fa-phone"></i>+7(999)1112233</a>
     </header>
     <main>

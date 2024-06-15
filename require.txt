@@ -1,0 +1,13 @@
+Django
+django-import-export
+gunicorn
+uvicorn
+waitress
+Jinja2
+psycopg
+psycopg2
+psycopg2-binary
+Pillow
+schedule
+requests
+dj-database-url

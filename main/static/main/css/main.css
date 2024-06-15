@@ -21,6 +21,15 @@ header {
     transition: transform 0.3s ease;
 }
 
+.item2{
+    background: #e7c40c;
+    color: #444451;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    transition: transform 0.3s ease;
+}
+
 a {
     color: #e7c40c;
 }
